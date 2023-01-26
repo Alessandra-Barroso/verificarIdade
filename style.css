@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-width: 0px;
+    outline-width: 0px;
+}
+body{
+   
+    align-items: center;
+    text-align: center;
+    background:#e1f4ff;
+
+}
+#conteudo{
+    padding: 30px;
+   text-align: center;
+   margin-top: 6%;
+   margin-left: 33%;
+    background: #06b2d9;
+    width: 470px;
+    height: 650px;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.384);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form{
+    padding: 10px;
+
+}
+#anonascimento{
+    height: 30px;
+    border: 1px blue solid;
+    border-radius: 15px;
+    text-align: center;
+  
+}
+label{
+    text-align: center;
+    font-size: 22px;
+    justify-content: space-around;
+}
+#sexo{
+    text-align: bottom;
+}
+header{
+    border:1px solid rgba(0, 0, 0, 0.384)
+}
+
+#botao{
+    background:#112e35;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+img{
+    border-radius: 78px;
+    width: 150px;
+    height: 150px;
+}
+footer{
+    position: initial;
+    font-style: italic;
+}

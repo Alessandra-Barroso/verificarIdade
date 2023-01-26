@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+   
+   <div id="conteudo">
+    <header>
+        <figure>
+            <blockquote class="blockquote">
+              <p>Verificador de Idade</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+             Apresentação da idade e foto.<cite title="Source Title"></cite>
+            </figcaption>
+          </figure>
+    </header>
+    <br><br>
+<form action="">
+<label for="anonascimento">Ano de Nascimento: </label><br><br>
+<input type="number" name="anonascimento" id="anonascimento" min="0" required>
+<br><br>
+
+<div id="sexo">
+    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="mas" autocomplete="off" checked>
+        <label class="btn btn-outline-primary" for="btnradio1">Masculino</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="fem" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btnradio2">Feminino</label>
+      
+       
+      </div>
+  </div>
+  <br><br>
+
+    <div class="d-grid gap-2">
+        <button class="btn btn-primary" type="button" value="Verificar" onclick=" VerificaIdade()">Verificar</button>
+      </div>
+<br>
+<div id="frase">
+    <label for="">Preencha os dados acima para ver o resultado...</label><br><br><br>
+</div>
+
+</form>
+
+   </div> 
+   <footer>&copf; Alessandra Barroso</footer>
+   <script src="script.js"></script>
+</body>
+</html>
